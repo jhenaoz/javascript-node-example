@@ -4,8 +4,10 @@
   "description": "this is and example of node project",
   "main": "index.js",
   "scripts": {
-    "test": "jasmine",
-    "jasmine-init": "jasmine init"
+    "test": "protractor config/protractor.conf.js",
+    "jasmine-init": "jasmine init",
+    "webdriver-update": "webdriver-manager update --gecko=false",
+    "webdriver-start": "webdriver-manager start"
   },
   "keywords": [
     "example",
@@ -17,8 +19,11 @@
   },
   "author": "jhenaoz93@gmail.com",
   "license": "ISC",
-  "dependencies": {},
+  "dependencies": {
+    "protractor": "^5.1.2"
+  },
   "devDependencies": {
-    "jasmine": "^2.6.0"
+    "jasmine": "^2.6.0",
+    "jasmine-spec-reporter": "^4.1.1"
   }
 }

@@ -1,0 +1,24 @@
+{
+  "name": "nodeexample",
+  "version": "1.0.0",
+  "description": "this is and example of node project",
+  "main": "index.js",
+  "scripts": {
+    "test": "jasmine",
+    "jasmine-init": "jasmine init"
+  },
+  "keywords": [
+    "example",
+    "node"
+  ],
+  "engines": {
+    "node": "^6.0",
+    "npm": "^3.0"
+  },
+  "author": "jhenaoz93@gmail.com",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "jasmine": "^2.6.0"
+  }
+}
